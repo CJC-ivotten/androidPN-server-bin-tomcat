@@ -143,9 +143,9 @@ public class NotificationController extends MultiActionController {
     		is.close();
     		String serverName = request.getServerName();
     		int serverPort = request.getServerPort();
-    		//正式环境
+    		//正式环境---------
     		//String imageUrl = "http://" + serverName + ":" + serverPort + "/upload/" + fileName;
-    		//测试环境
+    		//测试环境------------
     		String imageUrl = "http://192.168.1.107:" + serverPort + "/upload/" + fileName;
     		
     		System.out.println(imageUrl);
